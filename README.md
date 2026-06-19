@@ -1,6 +1,3 @@
-Aqui está o seu README revisado, mais organizado e com aparência mais profissional (mantive seu conteúdo, só refinei escrita, hierarquia e consistência):
-
-```markdown
 # 📰 UK Newspaper - Edição Especial
 
 Trabalho Interdisciplinar de **Inglês** e **PAM/PW** — ETEC Sales Gomes, Tatuí/SP.
@@ -148,9 +145,4 @@ Projeto acadêmico com finalidade educacional.
 
 **ETEC Sales Gomes** — Tatuí/SP — 2026
 
-```
 
-Se quiser, posso também:
-- :contentReference[oaicite:0]{index=0}
-- ou :contentReference[oaicite:1]{index=1} 👍
-```
