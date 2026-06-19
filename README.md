@@ -6,12 +6,6 @@ Jornal digital com estilo vintage sobre a cultura, história e língua do Reino 
 
 ---
 
-## 🚀 Demonstração
-
-Acesse o projeto online:  
-[Link do deploy aqui]
-
----
 
 ## 🖼️ Preview
 
