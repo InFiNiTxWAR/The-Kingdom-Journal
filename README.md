@@ -1,205 +1,156 @@
+Aqui está o seu README revisado, mais organizado e com aparência mais profissional (mantive seu conteúdo, só refinei escrita, hierarquia e consistência):
+
 ```markdown
 # 📰 UK Newspaper - Edição Especial
 
-![Banner](img/london.jpg)
+Trabalho Interdisciplinar de **Inglês** e **PAM/PW** — ETEC Sales Gomes, Tatuí/SP.
 
-## 📋 Sobre o Projeto
+Jornal digital com estilo vintage sobre a cultura, história e língua do Reino Unido.
 
-Trabalho Interdisciplinar das disciplinas de **Inglês** e **PAM/PW** (Programação de Aplicativos Mobile / Programação Web) da **ETEC Sales Gomes - Tatuí/SP**.
+---
 
-O projeto consiste em um jornal digital em formato web no estilo vintage (jornal impresso antigo) que apresenta conteúdo cultural sobre o Reino Unido, abordando aspectos linguísticos, históricos, geográficos e turísticos da cultura britânica.
+## 🚀 Demonstração
+
+Acesse o projeto online:  
+[Link do deploy aqui]
+
+---
+
+## 🖼️ Preview
+
+![Preview do Jornal](img/london.jpg)
 
 ---
 
 ## 👥 Equipe
 
-| Nome | Função |
-|------|--------|
-| Diego | Desenvolvimento |
-| Maria | Desenvolvimento |
-| Emily | Desenvolvimento |
-
-### Professores Orientadores
-
-| Nome | Disciplina |
-|------|------------|
-| Marcela | Inglês |
-| Diogo | PAM/PW |
+**Alunos:** Diego, Maria e Emily  
+**Professores:** Marcela (Inglês) e Diogo (PAM/PW)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias utilizadas
 
-- **HTML5** - Estrutura semântica do jornal
-- **CSS3** - Estilização vintage com design responsivo
-- **PHP 7.4+** - Renderização dinâmica dos dados
-- **Bootstrap 5.3** - Framework CSS para grid e componentes
-- **Bootstrap Icons** - Ícones decorativos nas seções
-- **JavaScript (Vanilla)** - Interatividade do carrossel e animações
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do projeto
 
 ```
-📁 projeto-jornal/
-│
-├── 📄 index.php              # Página principal do jornal
-├── 📄 dados.php              # Array com todo conteúdo textual
-├── 📄 style.css              # Estilos personalizados
-├── 📄 script.js              # Interatividade e animações (opcional)
-├── 📄 README.md              # Documentação do projeto
-│
-├── 📁 img/                   # Imagens do jornal
-│   ├── london.jpg            # Banner principal (1200×500px)
-│   ├── mapa.jpg              # Mapa do Reino Unido (800×500px)
-│   ├── historia.jpg          # Imagem histórica (800×500px)
-│   ├── fishchips.jpg         # Gastronomia (800×500px)
-│   ├── bigben.jpg            # Carrossel - Big Ben (1200×600px)
-│   ├── towerbridge.jpg       # Carrossel - Tower Bridge (1200×600px)
-│   ├── stonehenge.jpg        # Carrossel - Stonehenge (1200×600px)
-│   ├── buckingham.jpg        # Carrossel - Buckingham (1200×600px)
-│   └── londoneye.jpg         # Carrossel - London Eye (1200×600px)
-│
-└── 📁 video/                 # Vídeos (opcional - pode usar YouTube)
-    └── sotaque-britanico.mp4
-```
+
+projeto-jornal/
+├── index.php          # Página principal
+├── dados.php          # Conteúdo dinâmico do jornal
+├── style.css          # Estilo vintage
+├── script.js         # Animações e interações
+├── img/              # Imagens do projeto
+│   ├── london.jpg
+│   ├── mapa.jpg
+│   ├── historia.jpg
+│   ├── fishchips.jpg
+│   ├── bigben.jpg
+│   ├── towerbridge.jpg
+│   ├── stonehenge.jpg
+│   ├── buckingham.jpg
+│   └── londoneye.jpg
+└── README.md
+
+````
 
 ---
 
-## 🚀 Como Executar
+## ⚡ Como executar o projeto
 
-### Opção 1 - Servidor PHP Local
-
+### Localmente com PHP:
 ```bash
-# Na pasta do projeto, execute:
+git clone https://github.com/seu-usuario/uk-newspaper.git
+cd uk-newspaper
 php -S localhost:8000
+````
+
+Depois acesse:
+
+```
+http://localhost:8000
 ```
 
-Depois acesse: `http://localhost:8000`
+### Alternativa (XAMPP):
 
-### Opção 2 - XAMPP / WAMP
-
-1. Copie a pasta do projeto para `htdocs` (XAMPP) ou `www` (WAMP)
-2. Inicie o Apache
-3. Acesse: `http://localhost/pasta-do-projeto`
-
-### Opção 3 - Deploy (Recomendado para apresentação)
-
-Faça deploy gratuito em uma dessas plataformas:
-
-- [InfinityFree](https://infinityfree.com) - PHP grátis
-- [000webhost](https://000webhost.com) - PHP grátis
+* Coloque a pasta dentro de `htdocs`
+* Inicie o Apache
+* Acesse pelo navegador
 
 ---
 
 ## 📱 Responsividade
 
-O jornal se adapta a diferentes tamanhos de tela:
+O projeto foi adaptado para diferentes dispositivos:
 
-| Dispositivo | Largura | Comportamento |
-|-------------|---------|---------------|
-| TV / Projetor | 1200px+ | Layout completo, imagens grandes |
-| Desktop | 992px - 1200px | Layout padrão do jornal |
-| Tablet | 768px - 992px | Título reduzido, padding menor |
-| Celular | até 480px | Layout empilhado, fonte reduzida |
-
----
-
-## 🎨 Características do Design
-
-- 🏛️ Estilo **vintage/jornal impresso** com fontes serifadas (Times New Roman)
-- 📜 Fundo **bege envelhecido** (#f6f0df) simulando papel
-- 🖼️ Bordas duplas e sombras simulando impressão tipográfica
-- 🎠 **Carrossel interativo** de pontos turísticos com informações dinâmicas
-- 📊 **Tabela comparativa** de vocabulário britânico vs americano
-- 🎴 **Cards** para expressões idiomáticas com efeito hover
-- 🔝 **Botão "Voltar ao topo"** (via script.js)
-- ♿ Elementos de **acessibilidade** (aria-label, visually-hidden, focus-visible)
+| Dispositivo   | Largura        |
+| ------------- | -------------- |
+| TV / Projetor | 1200px+        |
+| Desktop       | 992px – 1200px |
+| Tablet        | 768px – 992px  |
+| Celular       | até 480px      |
 
 ---
 
-## 📝 Conteúdo do Jornal
+## 📝 Seções do jornal
 
-| Seção | Conteúdo |
-|-------|----------|
-| **Localização Geográfica** | Países, capitais, área e oceanos |
-| **Influência Cultural** | História da língua inglesa |
-| **Diferenças de Sotaque** | 40+ sotaques regionais |
-| **Breve História** | Dos celtas ao Império Britânico |
-| **Pontos Turísticos** | 5 destinos com carrossel |
-| **Gastronomia** | Pratos típicos britânicos |
-| **Curiosidades Culturais** | 12 fatos interessantes |
-| **Fatos Rápidos** | Dados gerais do país |
-| **Vocabulário Específico** | 20 palavras britânicas |
-| **Expressões Idiomáticas** | 12 expressões comuns |
-| **Variação Linguística** | 20 palavras UK vs USA |
-| **Vídeo** | Sotaques britânicos (YouTube) |
+* Localização Geográfica
+* Influência Cultural na Língua Inglesa
+* Diferenças de Sotaque
+* História do Reino Unido
+* Pontos turísticos (carrossel)
+* Gastronomia britânica
+* Curiosidades culturais
+* Fatos rápidos
+* Vocabulário específico
+* Expressões idiomáticas
+* Variação linguística (UK vs USA)
+* Vídeo sobre sotaques britânicos
 
 ---
 
-## 🔧 Configuração
+## 🎨 Design
 
-### Para usar link do YouTube (recomendado):
+O projeto utiliza um estilo de jornal antigo, com:
 
-No arquivo `dados.php`:
-```php
-$video = [
-    "titulo" => "20 British Accents in One Video",
-    "descricao" => "Neste vídeo, um especialista...",
-    "tipo" => "youtube",
-    "link" => "https://www.youtube.com/watch?v=XXXXXXXXXXX"
-];
-```
-
-### Para usar vídeo local:
-
-```php
-$video = [
-    "titulo" => "20 British Accents in One Video",
-    "descricao" => "Neste vídeo, um especialista...",
-    "tipo" => "local",
-    "arquivo" => "video/sotaque-britanico.mp4"
-];
-```
+* Fonte serifada (Times New Roman)
+* Fundo em tom bege
+* Bordas e sombras suaves
+* Estética vintage inspirada em jornais impressos
 
 ---
 
-## 📐 Tamanhos de Imagem
+## 📐 Padrão das imagens
 
-| Imagem | Largura × Altura | Proporção |
-|--------|------------------|-----------|
-| Banner (london.jpg) | 1200 × 500px | 12:5 |
-| Carrossel | 1200 × 600px | 2:1 |
-| Seções | 800 × 500px | 8:5 |
-
-**Formato recomendado:** JPG (80-85% qualidade) ou WebP  
-**Tamanho máximo por imagem:** 200KB
+| Uso       | Dimensão   |
+| --------- | ---------- |
+| Banner    | 1200×500px |
+| Carrossel | 1200×600px |
+| Seções    | 800×500px  |
 
 ---
 
 ## 📄 Licença
 
-Projeto acadêmico desenvolvido para fins educacionais.
-
----
-
-## 📅 Data
-
-**Junho de 2026**
+Projeto acadêmico com finalidade educacional.
 
 ---
 
 ## 🏫 Instituição
 
-**ETEC Sales Gomes**  
-Tatuí - São Paulo - Brasil
+**ETEC Sales Gomes** — Tatuí/SP — 2026
 
----
+```
 
-<p align="center">
-    <strong>UK Newspaper</strong><br>
-    <em>Special Edition - The United Kingdom</em><br>
-    Trabalho Interdisciplinar de Inglês e PAM/PW
-</p>
+Se quiser, posso também:
+- :contentReference[oaicite:0]{index=0}
+- ou :contentReference[oaicite:1]{index=1} 👍
 ```
